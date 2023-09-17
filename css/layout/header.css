@@ -1,0 +1,21 @@
+/* Header */
+.hero-container{
+    width: 100%;
+    /* height: min(45rem, 50rem, 55rem); */
+}
+
+.hero-main{
+    width: 100%;
+    height: min(45rem, 50rem, 55rem);
+    display: flex;
+    padding: 2rem 4rem;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-image{
+    width: 50%;
+}
+/* Header */

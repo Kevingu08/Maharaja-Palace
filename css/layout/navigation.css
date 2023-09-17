@@ -1,0 +1,21 @@
+/* nav */
+.top-nav{
+    display: flex;
+    padding: 3rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* color para diferenciar (cambiar despues) */
+    background: whitesmoke;
+}
+
+.nav-list{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.nav-list-link{
+    text-decoration: none;
+}
+/* nav */
