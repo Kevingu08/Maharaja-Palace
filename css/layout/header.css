@@ -6,16 +6,19 @@
 
 .hero-main{
     width: 100%;
-    height: min(45rem, 50rem, 55rem);
+    height: min(40rem, 50rem, 55rem);
     display: flex;
-    padding: 2rem 4rem;
+    padding: 2rem 8rem;
+    align-items: center;
 }
 
-.hero-text{
+.hero-text-container{
     width: 50%;
 }
 
 .hero-image{
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 /* Header */

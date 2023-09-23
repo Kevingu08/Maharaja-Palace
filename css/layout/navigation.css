@@ -1,12 +1,18 @@
 /* nav */
 .top-nav{
     display: flex;
-    padding: 3rem 4rem;
+    padding: 2rem 8rem;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     /* color para diferenciar (cambiar despues) */
-    background: whitesmoke;
+    background: var(--clr-white);
+    border-bottom: solid;
+    border-bottom-color: var(--clr-gray);
+}
+
+.logo-maharaja{
+    width: 7rem;
 }
 
 .nav-list{
@@ -17,5 +23,12 @@
 
 .nav-list-link{
     text-decoration: none;
+    color: var(--clr-black);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semi-bold);
+}
+
+.user-img{
+    width: 3rem;
 }
 /* nav */

@@ -1,0 +1,10 @@
+.hero-title{
+    font-family: var(--ff-main);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+}
+
+.hero-text{
+    font-size: var(--fs-md);
+    font-weight: var(--fw-rg);
+}
