@@ -26,7 +26,9 @@
                 <li><a class="nav-list-link" href="#">About Us</a></li>
                 <li><a class="nav-list-link" href="#">Contact</a></li>
             </ul>
-            <a href="#"><img class="user-img" src="./imgs/user.svg" alt="user icon"></a>
+            <a href="#" class="btn-login">Log In / Sing In</a>
+
+            <!-- <a href="#"><img class="user-img" src="./imgs/user.svg" alt="user icon"></a> -->
         </nav>
         <!-- Barra de navegacion -->
 
@@ -34,9 +36,14 @@
         <div class="hero-main">
             <section class="hero-text-container">
                 <h2 class="hero-title">Title</h2>
-                <p class="hero-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, quasi. Eos, nostrum? Ea aliquid soluta error quam sunt? Fugit velit sunt suscipit optio molestiae officiis veritatis laborum perspiciatis, quae in.</p>
+                <p class="hero-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, quasi. Eos,
+                    nostrum? Ea aliquid soluta error quam sunt? Fugit velit sunt suscipit optio molestiae officiis
+                    veritatis laborum perspiciatis, quae in.</p>
+                <div class="cta-container">
+                    <a class="btn-main" href="#">Order Now</a>
+                </div>
             </section>
-            <div class="hero-image">
+            <div class="hero-image-container">
                 <img src="./imgs/platillo-1.png" alt="hero-image">
             </div>
         </div>
@@ -44,9 +51,95 @@
     </header>
 
     <section class="featured-dishes">
-        <h2>Featured Dishes</h2>
+        <h2 class="section-title">Featured Dishes</h2>
+
+        <!-- slider -->
+        <div class="slider-container">
+            <div class="slider" id="slider-one">
+                <ul class="slider-list" id="slider-list-one">
+                    <li class="slider-item">
+                        <div class="card">
+                            <img class="slider-img" src="./imgs/aloo-gosht.jpg.webp" alt="">
+                            <div class="slider-text">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider-item">
+                        <div class="card">
+                            <img class="slider-img" src="./imgs/aloo-gosht.jpg.webp" alt="">
+                            <div class="slider-text">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider-item">
+                        <div class="card">
+                            <img class="slider-img" src="./imgs/aloo-gosht.jpg.webp" alt="">
+                            <div class="slider-text">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider-item">
+                        <div class="card">
+                            <img class="slider-img" src="./imgs/aloo-gosht.jpg.webp" alt="">
+                            <div class="slider-text">
+                                <h3>Title</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- slider -->
     </section>
 
+    <!-- footer -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <img class="logo-maharaja" src="./imgs/Maharaja-palace-logo.png" alt="Mahara logo">
+
+            <div class="social-media">
+                <img src="./imgs/facebook-svgrepo-com.svg" alt="">
+                <img src="./imgs/facebook-svgrepo-com.svg" alt="">
+                <img src="./imgs/facebook-svgrepo-com.svg" alt="">
+                <img src="./imgs/facebook-svgrepo-com.svg" alt="">
+            </div>
+
+            <div class="footer-links">
+                <section>
+                    <h3>Maharaja Palace</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Patterns</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Help</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Frequent questions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Merchant Terms of Service</a></li>
+                        <li><a href="#">User Terms of Service</a></li>
+                    </ul>
+                </section>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer -->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

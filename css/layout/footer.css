@@ -1,0 +1,23 @@
+.footer-container{
+    width: 100%;
+    border-top: solid var(--clr-gray);
+    padding: 1rem 8rem;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 1rem;
+    width: 10%;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1rem;
+}

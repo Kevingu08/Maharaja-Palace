@@ -1,7 +1,7 @@
 /* nav */
 .top-nav{
     display: flex;
-    padding: 2rem 8rem;
+    padding: 1rem 8rem;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -13,6 +13,7 @@
 
 .logo-maharaja{
     width: 7rem;
+    height: 7rem;
 }
 
 .nav-list{

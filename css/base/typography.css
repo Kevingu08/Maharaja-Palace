@@ -8,3 +8,9 @@
     font-size: var(--fs-md);
     font-weight: var(--fw-rg);
 }
+
+.section-title{
+    font-family: var(--ff-main);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-lg);
+}
