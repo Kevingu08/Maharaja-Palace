@@ -11,9 +11,9 @@
 
 .social-media{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
     gap: 1rem;
-    width: 10%;
+    width: 20%;
 }
 
 .footer-links{

@@ -48,3 +48,47 @@
 .slider-img{
     width: 100%;
 }
+
+@media (max-width:767.98px){
+    /* nav */
+    .top-nav{
+        padding: 1rem 2rem;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    /* hero */
+    .hero-main{
+        padding: 1rem 2rem;
+        flex-direction: column;
+    }
+    
+    .hero-image-container{
+        width: 100%;
+    }
+    
+    .hero-text-container{
+        width: 100%;
+        order: 2;
+    }
+
+    .cta-container{
+        display: flex;
+        justify-content: center;
+    }
+    /* hero */
+
+    .featured-dishes{
+        padding: 1rem 2rem;
+    }
+
+    .menu-container{
+        padding: 1rem 2rem;
+    }
+
+    .footer-container{
+        padding: 1rem 2rem;
+    }
+}

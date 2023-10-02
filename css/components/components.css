@@ -30,3 +30,11 @@
     border: solid var(--clr-main);
     background: var(--clr-white);
 }
+
+.underscore{
+    width: 20%;
+    height: .3rem;
+    background: var(--clr-main);
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
