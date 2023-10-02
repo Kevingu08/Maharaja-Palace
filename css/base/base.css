@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* soluciona los problemas con el font family en otro archivo html */
+    font-family: var(--ff-secondary);
 }
 
-body{
+html{
     font-family: var(--ff-secondary);
 }
