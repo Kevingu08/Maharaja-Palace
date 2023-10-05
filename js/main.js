@@ -1,15 +1,42 @@
 function init(){
-    let slider = document.getElementById("slider-one");
-    let sliderListOne =  document.getElementById("slider-list-one");
-    let sliderWidth;
-    let sliderListItem = sliderListOne.children;
-    console.log(sliderListItem);
-    for(let index = 0; index < sliderListItem.length; index++){
-        sliderWidth += sliderListItem[index].style.width;
-        console.log(sliderListItem[index].className)
-    }
-    console.log(sliderWidth);
-    slider.style.width = sliderWidth + "%";
+   
+    var swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: true,
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        
+        // init: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        
+        slidesPerView: 1,
+        spaceBetween: 40,
+      
+        breakpoints: {
+          620: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          680: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          920: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1240: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        } 
+        });
 }
 
 document.addEventListener("DOMContentLoaded", function(){

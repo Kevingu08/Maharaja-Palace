@@ -13,82 +13,118 @@
 
 @import url('./pages/menu.css');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.featured-dishes{
-    padding: 2rem 8rem;
+.swiper {
+    width: 100%;
+    height: 100%;
 }
 
-.slider-container{
+.swiper-button-prev,
+.swiper-button-next{
+    color: var(--clr-white);
+}
+
+.swiper-slide img {
+    display: block;
     width: 100%;
-    margin-bottom: 5rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination{
+    margin-top: 1rem;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active{
     background: var(--clr-main);
-    padding: 4rem;
-    border-radius: 5rem;
-    margin: auto;
+}
+
+.featured-dishes {
+    padding: 2rem 8rem;
+    background: var(--clr-white);
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: var(--clr-main);
     overflow: hidden;
+    border-radius: 2rem;
+    justify-content: center;
 }
 
-.slider{
-    position: relative;
-}
 
-.slider-list{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-
-.card{
-    width: 17rem;
-}
-
-.slider-img{
+.slider-img {
     width: 100%;
 }
 
+.slider-text{
+    color: var(--clr-white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-bg{
+    background: var(--clr-main);
+}
 
 
-@media (max-width:767.98px){
+@media (max-width:767.98px) {
+
     /* nav */
-    .top-nav{
+    .top-nav {
         padding: 1rem 2rem;
     }
 
     /* hero */
-    .hero-main{
+    .hero-main {
         padding: 1rem 2rem;
         flex-direction: column;
     }
-    
-    .hero-image-container{
+
+    .hero-image-container {
         width: 100%;
     }
-    
-    .hero-text-container{
+
+    .hero-text-container {
         width: 100%;
         order: 2;
     }
 
-    .cta-container{
+    .cta-container {
         display: flex;
         justify-content: center;
     }
+
     /* hero */
 
-    .featured-dishes{
+    .featured-dishes {
         padding: 1rem 2rem;
     }
 
-    .menu-container{
+    .swiper-button-prev{
+        display: none;
+    }
+
+    .swiper-button-next{
+        display: none;
+    }
+
+    .menu-container {
         padding: 1rem 2rem;
     }
 
-    .footer-container{
+    .footer-container {
         padding: 1rem 2rem;
     }
 }
