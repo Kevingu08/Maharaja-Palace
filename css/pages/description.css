@@ -1,0 +1,41 @@
+.related-products {
+  background: var(--clr-gray-bg);
+  padding: 2rem 8rem;
+}
+
+.related-products-container {
+  background-color: var(--clr-gray);
+  border-radius: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.related-products-image {
+  height: 33rem;
+  margin: 2rem 0 0 5rem;
+  width: 22rem;
+}
+
+.second-container {
+  background: var(--clr-main);
+  border-bottom-left-radius: 2.5rem;
+  border-top-left-radius: 2.5rem;
+  width: 95%;
+}
+
+.related-text-container {
+  grid-column: span 2;
+  margin-top: 2rem;
+}
+
+.btn-container-related{
+    display: flex;
+    justify-content: end;
+    margin-right: 4rem;
+}
+
+
+
+

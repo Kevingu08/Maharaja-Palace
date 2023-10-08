@@ -29,4 +29,25 @@
 .cta-container{
     margin-top: 3rem;
 }
+
+.description-text-container{
+    width: 100%;
+}
+
+.description-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 800px)); 
+}
+
+.description-image-container{ 
+    overflow: hidden;
+    width: 78rem;
+    height: 53.7rem;
+}
+
+.description-img{
+    width: 150%;
+    height: 110%;
+}
+
 /* Header */

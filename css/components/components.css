@@ -24,11 +24,30 @@
     text-decoration: none;
 }
 
+
 .btn-secondary{
     padding: 1rem;
     border-radius: 2rem;
     border: solid var(--clr-main);
     background: var(--clr-white);
+    text-decoration: none;
+}
+
+.btn-tertiary{
+    padding: 1rem 14rem;
+    border-radius: 2rem;
+    border: none;
+    background: var(--clr-main);
+    color: var(--clr-white);
+    text-decoration: none; 
+}
+
+.btn-related-products{
+    color: var(--clr-white);
+    font-size: var(--fs-lg);
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    background: var(--clr-main);
     text-decoration: none;
 }
 

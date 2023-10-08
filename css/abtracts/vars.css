@@ -3,8 +3,10 @@
     --ff-main: 'Hind Madurai', sans-serif;
     --ff-secondary: 'Cabin', sans-serif; 
     /* font-size */
+    --fs-gg: 10rem;
     --fs-xl: 5rem; 
     --fs-lg: 2.5rem;
+    --fs-xmd: 1.5rem;
     --fs-md: 1.125rem;
     --fs-nm: 1rem;
     --fs-sm: .875rem;
