@@ -29,6 +29,12 @@
   background: var(--clr-gray-bg);
 }
 
+.btn-menu-container{
+    position: absolute;
+    top: 12rem;
+    left: -2rem;
+}
+
 .link-card-menu {
   text-decoration: none;
   color: var(--clr-black);

@@ -52,21 +52,29 @@
 }
 
 .btn-back-description{
-    width: 53.94px;
-    height: 54.35px;
-    flex-shrink: 0;
-        padding: .5rem 2rem;
+    display: flex;
+    padding: .5rem 1rem .5rem 2rem;
     border-radius: 2rem;
     border: solid var(--clr-main);
     text-decoration: none;
 }
 
 .btn-back{
-    padding: .5rem 2rem;
+    display: flex;
+    padding: .5rem 1rem .5rem 2rem;
     border-radius: 2rem;
     border: solid var(--clr-main);
     text-decoration: none;
-}
+
+
+
+    /* padding: .5rem 2rem;
+    border-radius: 2rem;
+    border: solid var(--clr-main);
+    text-decoration: none;
+    */
+} 
+
 
 .btn-card{
 
