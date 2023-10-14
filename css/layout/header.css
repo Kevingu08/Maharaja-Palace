@@ -10,6 +10,7 @@
     display: flex;
     padding: 2rem 8rem;
     align-items: center;
+    gap: 1rem;
 }
 
 .hero-text-container{
@@ -23,15 +24,11 @@
 }
 
 .hero-image{
-    width: 100%;
+    width: 80%;
 }
 
 .cta-container{
     margin-top: 3rem;
-}
-
-.description-text-container{
-    width: 100%;
 }
 
 .description-container{
