@@ -1,5 +1,5 @@
 function init(){
-   
+    
     var swiper = new Swiper('.swiper', {
         loop: true,
         autoplay: true,
@@ -39,8 +39,23 @@ function init(){
         });
 }
 
-document.addEventListener("DOMContentLoaded", function(){
+function adaptiveMenu(){
+  let topNav = document.getElementById("top-navigation");
+  let navList = document.getElementById("navigation-list");
+  let mobileCheck = document.getElementById("mobile-check");
+  let height = topNav.offsetHeight;
+  mobileCheck.addEventListener("click",function(){
+    if(this.checked){
+      console.log(height);
+      navList.style.top = height + "px";
+    }
+  });
 
+  
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+    adaptiveMenu();
     init()
     
 });
