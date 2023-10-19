@@ -39,13 +39,12 @@
   background-size: 0% 100%;
   background-position-x: right;
 
-  transition: background-size 300ms;
+  transition: background-size 500ms;
 }
 
 .nav-list-link:hover{
     background-size: 100% 100%;
     background-position-x: left;
-    transition-duration: 1s;
 }
 
 .user-img {
@@ -58,13 +57,6 @@
 
 .mobile-btn {
   display: none;
-}
-
-
-
-
-@media (max-width:1025px) {
-  
 }
 
 /* nav */

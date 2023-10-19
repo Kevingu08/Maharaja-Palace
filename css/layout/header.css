@@ -40,7 +40,14 @@
 }
 
 .cta-container{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  */
     margin: 3rem auto;
+}
+
+.quantity-container{
+    display: block;
+    background: var(--clr-gray);
 }
 
 .description-container{
