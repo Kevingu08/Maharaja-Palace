@@ -1,7 +1,10 @@
+.adaptative-menu-nav{
+    margin-top: 9rem;
+}
+
 .menu-container{
     width: 100%;
     padding: 1rem 8rem 1rem;
-    margin-top: 9rem;
 }
 
 .menu{
