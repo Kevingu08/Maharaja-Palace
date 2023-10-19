@@ -6,6 +6,7 @@
 }
 
 .tags-container {
+  padding-top: 6rem;
   display: flex;
   gap: 1rem;
 }
@@ -29,10 +30,10 @@
   background: var(--clr-gray-bg);
 }
 
-.btn-menu-container{
-    position: absolute;
-    top: 12rem;
-    left: -2rem;
+.btn-menu-container {
+  position: absolute;
+  top: 12rem;
+  left: -2rem;
 }
 
 .link-card-menu {
@@ -40,3 +41,8 @@
   color: var(--clr-black);
 }
 
+@media (max-width: 767.98px) {
+  .tags-container {
+    flex-direction: column;
+  }
+}

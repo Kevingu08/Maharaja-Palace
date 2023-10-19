@@ -55,7 +55,7 @@
 }
 
 .featured-dishes {
-    padding: 2rem 8rem;
+    padding: 7rem 8rem 1.5rem;
     background: var(--clr-white);
     margin-bottom: 2rem;
 }
@@ -92,7 +92,7 @@
 }
 
 
-@media (max-width:767.98px) {
+@media (max-width:1025px) {
 
     /* nav */
     .top-nav {
@@ -101,8 +101,9 @@
 
     /* hero */
     .hero-main {
-        padding: 1rem 2rem;
+        padding: 11rem 2rem 1rem 2rem;
         flex-direction: column;
+        
     }
 
     .hero-image-container {
@@ -118,6 +119,19 @@
         display: flex;
         justify-content: center;
     }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .btn-tertiary{
+        width: 100%;
+    }
+
+    .btn-main{
+        width: 100%;
+    }
+    
 
     /* hero */
 

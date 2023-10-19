@@ -9,6 +9,8 @@
   background: var(--clr-white);
   border-bottom: solid;
   border-bottom-color: var(--clr-gray);
+  position: fixed;
+  z-index: 20;
 }
 
 .logo-maharaja {
@@ -43,6 +45,7 @@
 .nav-list-link:hover{
     background-size: 100% 100%;
     background-position-x: left;
+    transition-duration: 1s;
 }
 
 .user-img {
@@ -55,6 +58,13 @@
 
 .mobile-btn {
   display: none;
+}
+
+
+
+
+@media (max-width:1025px) {
+  
 }
 
 /* nav */
@@ -125,23 +135,27 @@
     left: 0;
     transition-duration: 0.4s;
   }
+  
+  .mobile-check ~ .nav-list {
+    left: -40rem;
+    transition-duration: 0.5s;
+  }
 
   .nav-list {
     display: grid;
     position: fixed;
-    top: 0;
+    bottom: 0;
     margin: 0;
     left: -40rem;
-    height: 100vh;
+    height: 80vh;
     align-content: start;
     background: var(--clr-white);
-    width: 80%;
+    width: 100%;
     z-index: 2;
-    border-radius: 0 2rem 2rem 0;
     align-content: center;
     text-align: center;
   }
-
+  
   .btn-login {
     display: none;
   }
