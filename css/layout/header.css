@@ -75,6 +75,35 @@
 }
 
 @media (max-width: 767.98px) {
+    /* hero */
+    .hero-main {
+        padding: 11rem 2rem 1rem 2rem;
+        flex-direction: column;  
+    }
+
+    .hero-image-container {
+        width: 100%;
+    }
+
+    .hero-text-container {
+        width: 100%;
+        order: 2;
+    }
+
+    .cta-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .btn-main{
+        width: 100%;
+    } 
+    /* hero */
+    
     .hero-main-description{
     padding: 11rem 2rem 1rem 2rem;
     flex-direction: column;

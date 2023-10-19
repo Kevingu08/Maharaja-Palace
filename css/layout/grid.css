@@ -38,3 +38,44 @@
     padding: 1.5rem;
 }
 
+.featured-dishes {
+    padding: 2rem 8rem;
+    background: var(--clr-white);
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: var(--clr-main);
+    overflow: hidden;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+.slider-img {
+    width: 100%;
+}
+
+.slider-text{
+    color: var(--clr-white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-bg{
+    background: var(--clr-main);
+}
+
+@media (max-width:767.98px) {
+    .featured-dishes {
+        padding: 1rem 2rem;
+    }
+
+    .menu-container {
+        padding: 1rem 2rem;
+    }
+}

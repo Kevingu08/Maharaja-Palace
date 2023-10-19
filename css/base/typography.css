@@ -32,3 +32,8 @@
     font-size: var(--fs-lg);
 }
 
+.link-text{
+    color: var(--clr-black);
+    text-decoration: none;
+}
+
