@@ -47,10 +47,7 @@
     margin: 3rem auto;
 }
 
-.quantity-container{
-    display: block;
-    background: var(--clr-gray);
-}
+
 
 .description-container{
     display: grid;
