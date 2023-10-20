@@ -1,50 +1,23 @@
 @import url('./abtracts/vars.css');
 
+@import url('./vendors/customs.css');
+
 @import url('./base/base.css');
 @import url('./base/typography.css');
 
-@import url('./layout/footer.css');
-@import url('./layout/forms.css');
+@import url('./layout/navigation.css');
 @import url('./layout/grid.css');
 @import url('./layout/header.css');
-@import url('./layout/navigation.css');
+@import url('./layout/footer.css');
+@import url('./layout/forms.css');
 
-@import url('./components/components.css');
+@import url('./components/buttons.css');
 
 @import url('./pages/menu.css');
 @import url('./pages/description.css');
 
-@import url(./vendors/customs.css);
 
 
-.quantity-container{
-    background: var(--clr-gray);
-    overflow: hidden;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
 
-.description-btn-container{
-    display: inline-grid;
-}
 
-.quantity-btn{
-    background: var(--clr-main);
-    padding: .5rem;
-    border: none;
-    cursor: pointer;
-    color: var(--clr-white);
-}
 
-.quantity-input{
-    width: 4rem;
-    background: var(--clr-gray);
-    border: none;
-    text-align: center;
-}
-@media (max-width:767.98px) {
-    
-}

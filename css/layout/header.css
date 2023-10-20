@@ -1,7 +1,6 @@
 /* Header */
 .hero-container{
     width: 100%;
-    /* height: min(45rem, 50rem, 55rem); */
 }
 
 .hero-main{
@@ -42,13 +41,12 @@
 }
 
 .cta-container{
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  */
     margin: 3rem auto;
 }
+/* Header */
 
 
-
+/* estilos para la pagina description */
 .description-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 800px)); 
@@ -64,8 +62,8 @@
     width: 150%;
     height: 110%;
 }
+/* estilos para la pagina description */
 
-/* Header */
 
 @media (max-width: 767.98px) {
     /* hero */
@@ -95,7 +93,6 @@
     .btn-main{
         width: 100%;
     } 
-    /* hero */
 
     .hero-main-description{
     padding: 2rem 2rem;

@@ -1,3 +1,4 @@
+/* clase adaptativa debido al position:fixed del navBar */
 .adaptative-menu-nav{
     margin-top: 9rem;
 }
@@ -20,6 +21,7 @@
     overflow: hidden;
 }
 
+/* animacion de las card, reducción de escala */
 .card-menu:hover{
     scale: 0.9;
     transition: .4s ease;
@@ -48,7 +50,7 @@
     margin-bottom: 2rem;
 }
 
-.card {
+.card-slider{
     background: var(--clr-main);
     overflow: hidden;
     border-radius: 2rem;
@@ -65,13 +67,29 @@
     margin-bottom: 1rem;
 }
 
-.btn-container{
+.btn-slider-container{
     display: flex;
     justify-content: center;
 }
 
+/* clase para cambiar el color de fondo de las card del slider*/
 .main-bg{
     background: var(--clr-main);
+}
+
+
+.quantity-container{
+    background: var(--clr-gray);
+    overflow: hidden;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.description-btn-container{
+    display: inline-grid;
 }
 
 @media (max-width:767.98px) {

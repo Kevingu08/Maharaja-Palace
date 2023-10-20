@@ -25,16 +25,12 @@
   background: var(--clr-cream);
 }
 
+/* clase para cambiar el color del menu (debido a que se reutiliza) */
 .background-menu {
   background: var(--clr-gray-bg);
 }
 
-.btn-menu-container {
-  position: absolute;
-  top: 12rem;
-  left: -2rem;
-}
-
+/* clase para quitar los valores por defecto de la etiqueta <a> */
 .link-card-menu {
   text-decoration: none;
   color: var(--clr-black);

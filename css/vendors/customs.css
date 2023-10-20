@@ -10,11 +10,13 @@
     object-fit: cover;
 }
 
+/* indice del slider */
 .swiper-pagination{
     margin-top: 1rem;
     position: relative;
 }
 
+/* color del elemento activo del indice del slider */
 .swiper-pagination-bullet-active{
     background: var(--clr-main);
 }
@@ -27,6 +29,7 @@
     padding: 1rem;
 }
 
+/* clase para adaptar(reducir tamaño) las flechas del slider */
 .swiper-button-prev::after,
 .swiper-button-next::after{
     font-size: var(--fs-sm);
