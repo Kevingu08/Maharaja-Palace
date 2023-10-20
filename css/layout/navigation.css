@@ -145,5 +145,6 @@
     z-index: 2;
     padding: 5rem;
     text-align: center;
+    height: 80vh;
   }
 }

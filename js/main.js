@@ -52,7 +52,6 @@ function adaptiveMenu(){
 
   mobileCheck.addEventListener("click",function(){
     if(this.checked){
-      console.log(height);
       navList.style.top = height + "px";
     }
   });
