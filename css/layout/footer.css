@@ -5,15 +5,14 @@
 }
 
 .footer-content{
+    gap: 3.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .social-media{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
-    gap: 1rem;
-    width: 20%;
+    grid-template-columns: repeat(auto-fit, minmax(33px, 1fr));
 }
 
 .footer-links{
