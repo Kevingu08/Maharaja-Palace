@@ -45,11 +45,11 @@
     flex-direction: column;
   }
 
-  .second-container {
+  .related-img-container {
     width: 100%;
   }
 
-  .related-container {
+  .related-content-container {
     width: 100%;
     display: flex;
     flex-direction: column;
