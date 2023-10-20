@@ -43,5 +43,6 @@
 @media (max-width: 767.98px) {
   .tags-container {
     flex-direction: column;
+    width: 100%;
   }
 }

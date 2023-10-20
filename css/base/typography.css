@@ -23,13 +23,14 @@
 .related-text-title{
     font-family: var(--ff-main);
     font-weight: var(--fw-bold);
-    font-size: var(--fs-xl);
+    font-size: var(--fs-lg);
+    margin-bottom: 1rem;
 }
 
 .related-text{
     font-family: var(--ff-secondary);
     font-weight: var(--fw-rg);
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
 }
 
 .link-text{

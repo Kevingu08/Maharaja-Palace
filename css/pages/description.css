@@ -61,4 +61,9 @@
     display: flex;
     justify-content: center;
   }
+
+  .description-btn-container{
+    width: 100%;
+  }
+
 }

@@ -29,7 +29,6 @@
 
 .description-btn-container{
     display: inline-grid;
-
 }
 
 .quantity-btn{
@@ -47,5 +46,5 @@
     text-align: center;
 }
 @media (max-width:767.98px) {
-
+    
 }
